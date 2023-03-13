@@ -1,8 +1,7 @@
 #Je souhaite afficher les nombres premiers jusqu'à 1000
-# D'abord je commence par déclarer une première boucle qui affiche les nombres de 2 jusqu'à 1000
-
+#Je commence par déclarer une variable qui va vérifier les nombres
 est_premier = True
-
+#Ensuite je commence par déclarer une première boucle qui affiche les nombres de 2 jusqu'à 1000
 for i in range (2, 10):
     #Ensuite je créer une autre boucle qui elle va permettre de vérifier si les nombres sont premiers ou non
     for n in range(2, i):

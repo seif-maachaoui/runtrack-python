@@ -1,5 +1,11 @@
-#Je déclare mes variables
+#Je créer mes variables
 Message = "abcdefghijklmnopqrstuvwxyz"
-getMessage = ""
-for x in Message:
-    print(x)
+Lettre = 0
+Ligne = 15
+
+for x in range(Lettre, Ligne):
+    while Lettre <= len(Message):
+        Lettre+=1
+        print(Message[Lettre])
+
+
